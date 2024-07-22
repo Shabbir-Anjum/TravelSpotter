@@ -1,0 +1,22 @@
+.page{
+    max-width: 30rem;
+    max-height: 20rem;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+
+    .input{
+        width: 60%;
+        border-bottom: 0.1rem solid gray;
+        text-align: center;
+        margin: auto;
+        background: white;
+    }
+
+    .input:focus{
+        outline: none;
+    }
+}
