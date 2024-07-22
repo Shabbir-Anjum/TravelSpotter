@@ -1,0 +1,6 @@
+Example 1:
+User query: "Find places as : parks, as nearest as possible to this location : Skopje, Square center near hotel Meriot"
+Plan step 1: Find all nearest parks to Hotel Mariot located at square center in Skopje
+API response: Successfully called GET /nearest_places to get the nearest places. Nearest places are  {"Skopje Central Park" : (42.17, 36.765)}
+Thought: I have successfully executed the complete plan, there is only in park near Mariot Hotel at Skopje square center with given longitude and latitude.
+Final Answer: Nearest places: [List of all places nearby].

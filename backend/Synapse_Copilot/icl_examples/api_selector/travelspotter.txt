@@ -1,0 +1,6 @@
+Example 1:
+Background: No background
+User query: "Find all parks near Mariot Hotel at square center of Skopje"
+API calling 1: GET /nearby_places to get the names and coordinates of all nearby parks.
+API response: Nearby places are:
+[Dictionary file of all nearby parks as key and coordinates tuple as value.]
